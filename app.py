@@ -19,8 +19,7 @@ async def get_game_reserves_by_region(region_name: str):
     return reserves
 
 @app.post("/validate-destination")
-async def validate_destination(request: Request):
-    data = await request.json()
+async def validate_destination(data: dict):
     print(data)
     # destination_name = data.get("destination_name")
     # if not destination_name:
