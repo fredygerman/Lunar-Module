@@ -18,13 +18,6 @@ async def get_game_reserves_by_region(region_name: str):
         raise HTTPException(status_code=404, detail="No game reserves found for the given region")
     return reserves
 
-@app.get("/region/{reserve_name}")
-async def get_region_by_reserve(reserve_name: str):
-    for reserve in game_reserves:
-        if reserve["name"].lower() == reserve_name.lower():
-            return {"region": reserve["region"]}
-    raise HTTPException(status_code=404, detail="Game reserve not found")
-
 @app.post("/validate-destination")
 async def validate_destination(request: Request):
     data = await request.json()
@@ -32,7 +25,12 @@ async def validate_destination(request: Request):
     if not destination_name:
         raise HTTPException(status_code=400, detail="destination_name is required")
     
+    matching_reserves = []
     for reserve in game_reserves:
-        if reserve["national_park"].lower() == destination_name.lower():
-            return {"valid": True}
-    return {"valid": False}
+        if destination_name.lower() in reserve["national_park"].lower():
+            matching_reserves.append(reserve)
+    
+    if not matching_reserves:
+        return {"valid": False, "matches": []}
+    
+    return {"valid": True, "matches": matching_reserves}
