@@ -21,16 +21,18 @@ async def get_game_reserves_by_region(region_name: str):
 @app.post("/validate-destination")
 async def validate_destination(request: Request):
     data = await request.json()
-    destination_name = data.get("destination_name")
-    if not destination_name:
-        raise HTTPException(status_code=400, detail="destination_name is required")
+    print(data)
+    # destination_name = data.get("destination_name")
+    # if not destination_name:
+    #     raise HTTPException(status_code=400, detail="destination_name is required")
     
-    matching_reserves = []
-    for reserve in game_reserves:
-        if destination_name.lower() in reserve["national_park"].lower():
-            matching_reserves.append(reserve)
+    # matching_reserves = []
+    # for reserve in game_reserves:
+    #     if destination_name.lower() in reserve["national_park"].lower():
+    #         matching_reserves.append(reserve)
     
-    if not matching_reserves:
-        return {"valid": False, "matches": []}
+    # if not matching_reserves:
+    #     return {"valid": False, "matches": []}
     
-    return {"valid": True, "matches": matching_reserves}
+    # return {"valid": True, "matches": matching_reserves}
+    return {"valid": True, "matches": []}
