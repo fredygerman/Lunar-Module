@@ -1,3 +1,4 @@
+from urllib.request import Request
 from fastapi import FastAPI, HTTPException
 import json
 from typing import List
@@ -25,4 +26,14 @@ async def get_region_by_reserve(reserve_name: str):
             return {"region": reserve["region"]}
     raise HTTPException(status_code=404, detail="Game reserve not found")
 
-
+@app.post("/validate-destination")
+async def validate_destination(request: Request):
+    data = await request.json()
+    destination_name = data.get("destination_name")
+    if not destination_name:
+        raise HTTPException(status_code=400, detail="destination_name is required")
+    
+    for reserve in game_reserves:
+        if reserve["national_park"].lower() == destination_name.lower():
+            return {"valid": True}
+    return {"valid": False}
