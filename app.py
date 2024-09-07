@@ -1,11 +1,14 @@
 from fastapi import FastAPI, HTTPException
 import json
 from typing import List
+import os
+
+ROOT_DIR = os.getcwd()
 
 app = FastAPI()
 
 # Load the game reserves data
-with open("data/game_reserves.json", "r") as f:
+with open(os.path.join(ROOT_DIR, "data/game_reserves.json"), "r") as f:
     game_reserves = json.load(f)
 
 @app.get("/game-reserves/{region_name}", response_model=List[dict])
@@ -22,5 +25,4 @@ async def get_region_by_reserve(reserve_name: str):
             return {"region": reserve["region"]}
     raise HTTPException(status_code=404, detail="Game reserve not found")
 
-# ... existing code ...
 
