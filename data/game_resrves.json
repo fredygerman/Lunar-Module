@@ -1,0 +1,248 @@
+[
+    {
+      "region": "Mara",
+      "national_park": "Serengeti National Park",
+      "entry_price_usd": 60
+    },
+    {
+      "region": "Arusha",
+      "national_park": "Ngorongoro Conservation Area",
+      "entry_price_usd": 70
+    },
+    {
+      "region": "Manyara",
+      "national_park": "Lake Manyara National Park",
+      "entry_price_usd": 53
+    },
+    {
+      "region": "Arusha",
+      "national_park": "Tarangire National Park",
+      "entry_price_usd": 53
+    },
+    {
+      "region": "Iringa",
+      "national_park": "Ruaha National Park",
+      "entry_price_usd": 30
+    },
+    {
+      "region": "Morogoro",
+      "national_park": "Mikumi National Park",
+      "entry_price_usd": 20
+    },
+    {
+      "region": "Katavi",
+      "national_park": "Katavi National Park",
+      "entry_price_usd": 30
+    },
+    {
+      "region": "Lindi",
+      "national_park": "Nyerere National Park (formerly Selous Game Reserve)",
+      "entry_price_usd": 50
+    },
+    {
+      "region": "Kigoma",
+      "national_park": "Gombe Stream National Park",
+      "entry_price_usd": 100
+    },
+    {
+      "region": "Kigoma",
+      "national_park": "Mahale Mountains National Park",
+      "entry_price_usd": 80
+    },
+    {
+      "region": "Arusha",
+      "national_park": "Arusha National Park",
+      "entry_price_usd": 45
+    },
+    {
+      "region": "Morogoro",
+      "national_park": "Udzungwa Mountains National Park",
+      "entry_price_usd": 35
+    },
+    {
+      "region": "Pwani",
+      "national_park": "Saadani National Park",
+      "entry_price_usd": 30
+    },
+    {
+      "region": "Ruvuma",
+      "national_park": "Liwonde Game Reserve",
+      "entry_price_usd": 25
+    },
+    {
+      "region": "Dodoma",
+      "national_park": "Chimala Game Reserve",
+      "entry_price_usd": 25
+    },
+    {
+      "region": "Mbeya",
+      "national_park": "Kitulo National Park",
+      "entry_price_usd": 40
+    },
+    {
+      "region": "Rukwa",
+      "national_park": "Rukwa Game Reserve",
+      "entry_price_usd": 45
+    },
+    {
+      "region": "Ruvuma",
+      "national_park": "Selous Game Reserve (Southern Sector)",
+      "entry_price_usd": 55
+    },
+    {
+      "region": "Tanga",
+      "national_park": "Mkomazi National Park",
+      "entry_price_usd": 30
+    },
+    {
+      "region": "Shinyanga",
+      "national_park": "Maswa Game Reserve",
+      "entry_price_usd": 40
+    },
+    {
+      "region": "Tabora",
+      "national_park": "Ugalla Game Reserve",
+      "entry_price_usd": 35
+    },
+    {
+      "region": "Kagera",
+      "national_park": "Biharamulo Game Reserve",
+      "entry_price_usd": 30
+    },
+    {
+      "region": "Rukwa",
+      "national_park": "Lwafi Game Reserve",
+      "entry_price_usd": 30
+    },
+    {
+      "region": "Rukwa",
+      "national_park": "Karema Game Reserve",
+      "entry_price_usd": 35
+    },
+    {
+      "region": "Singida",
+      "national_park": "Kisigo Game Reserve",
+      "entry_price_usd": 30
+    },
+    {
+      "region": "Arusha",
+      "national_park": "Engaruka Game Reserve",
+      "entry_price_usd": 25
+    },
+    {
+      "region": "Manyara",
+      "national_park": "Mbulu Game Reserve",
+      "entry_price_usd": 28
+    },
+    {
+      "region": "Pwani",
+      "national_park": "Kikowagame Reserve",
+      "entry_price_usd": 20
+    },
+    {
+      "region": "Ruvuma",
+      "national_park": "Songea Game Reserve",
+      "entry_price_usd": 22
+    },
+    {
+      "region": "Kigoma",
+      "national_park": "Uvinza Game Reserve",
+      "entry_price_usd": 24
+    },
+    {
+      "region": "Mtwara",
+      "national_park": "Rondo Game Reserve",
+      "entry_price_usd": 25
+    },
+    {
+      "region": "Dodoma",
+      "national_park": "Kondoa Game Reserve",
+      "entry_price_usd": 27
+    },
+    {
+      "region": "Singida",
+      "national_park": "Mwaru Game Reserve",
+      "entry_price_usd": 26
+    },
+    {
+      "region": "Morogoro",
+      "national_park": "Selous Game Reserve (Eastern Sector)",
+      "entry_price_usd": 52
+    },
+    {
+      "region": "Arusha",
+      "national_park": "Lolkisale Game Reserve",
+      "entry_price_usd": 30
+    },
+    {
+      "region": "Kilimanjaro",
+      "national_park": "Mwanga Game Reserve",
+      "entry_price_usd": 28
+    },
+    {
+      "region": "Mbeya",
+      "national_park": "Rungwe Game Reserve",
+      "entry_price_usd": 35
+    },
+    {
+      "region": "Ruvuma",
+      "national_park": "Mtwara Game Reserve",
+      "entry_price_usd": 30
+    },
+    {
+      "region": "Mtwara",
+      "national_park": "Newala Game Reserve",
+      "entry_price_usd": 32
+    },
+    {
+      "region": "Kagera",
+      "national_park": "Burigi Game Reserve",
+      "entry_price_usd": 33
+    },
+    {
+      "region": "Mbeya",
+      "national_park": "Mporoto Game Reserve",
+      "entry_price_usd": 34
+    },
+    {
+      "region": "Dodoma",
+      "national_park": "Itigi-Sumbu Game Reserve",
+      "entry_price_usd": 31
+    },
+    {
+      "region": "Singida",
+      "national_park": "Kinyonga Game Reserve",
+      "entry_price_usd": 29
+    },
+    {
+      "region": "Tabora",
+      "national_park": "Ipole Game Reserve",
+      "entry_price_usd": 33
+    },
+    {
+      "region": "Shinyanga",
+      "national_park": "Simiyu Game Reserve",
+      "entry_price_usd": 36
+    },
+    {
+      "region": "Morogoro",
+      "national_park": "Kilombero Game Reserve",
+      "entry_price_usd": 34
+    },
+    {
+      "region": "Rukwa",
+      "national_park": "Mlele Game Reserve",
+      "entry_price_usd": 37
+    },
+    {
+      "region": "Mbeya",
+      "national_park": "Kigogo Game Reserve",
+      "entry_price_usd": 38
+    },
+    {
+      "region": "Tanga",
+      "national_park": "Amani Nature Reserve",
+      "entry_price_usd": 20
+    }
+  ]
+  
